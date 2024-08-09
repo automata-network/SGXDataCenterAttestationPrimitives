@@ -1,9 +1,0 @@
-[workspace]
-resolver = "2"
-members = [
-	"QuoteGeneration/quote_wrapper/tdx-attest-sys",
-	"QuoteGeneration/quote_wrapper/sgx-dcap-ql-rs",
-	"QuoteGeneration/quote_wrapper/sgx-dcap-ql-sys",
-	"QuoteGeneration/quote_wrapper/tdx-attest-rs",
-	"QuoteVerification/dcap_quoteverify/sgx-dcap-quoteverify-rs",
-]

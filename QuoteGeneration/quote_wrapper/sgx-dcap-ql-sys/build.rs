@@ -65,7 +65,7 @@ fn main() {
         // Convert C enum to Rust enum
         .rustified_enum("_quote3_error_t")
         // Disable debug trait for packed C structures
-        .derive_debug(false)
+        .derive_debug(true)
         .derive_default(true)
         
         // Tell cargo to invalidate the built crate whenever any of the
